@@ -1,0 +1,28 @@
+2024/01/23 - 10:12:21:
+Error: User didn't input a valid name
+Input: ""
+
+2024/01/23 - 10:12:23:
+Error: User didn't input a valid name
+Input: "a"
+
+2024/01/23 - 10:12:29:
+Error: User input a name with numbers
+Input: "aaaaa4"
+
+2024/01/23 - 10:12:35:
+Error: User didn't input a valid age
+Input: ""
+
+2024/01/23 - 10:12:41:
+Error: User didn't input a valid age
+Input: "aaaa"
+
+2024/01/23 - 10:12:44:
+Error: User input a name with numbers
+Input: "33"
+
+2024/01/23 - 10:13:15:
+Error: User didn't input a valid name
+Input: ""
+
