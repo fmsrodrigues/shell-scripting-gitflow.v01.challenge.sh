@@ -5,7 +5,7 @@ echo "Olá, seja bem vindo!"
 echo "Qual o seu nome?"
 read NAME
 
-if [[ ${#NAME} -lt 2 ]]; then
+if [[ (-z $NAME) || (${#NAME} -lt 2) ]]; then
   echo "O nome deve ter 2 ou mais caracteres"
   exit 1
 fi
