@@ -10,6 +10,11 @@ if [[ (-z $NAME) || (${#NAME} -lt 2) ]]; then
   exit 1
 fi
 
+if [[ ! $NAME =~ ^[[:alpha:]]+$ ]]; then
+  echo "O nome deve conter apenas caracteres alfabéticos"
+  exit 1
+fi
+
 echo "Qual a sua idade?"
 read AGE
 
